@@ -248,7 +248,7 @@ struct MosqueView: View{
     func updateTextField() {
         toDisplay = mosqueName[currentIndex]
         toDisplay2 = mosqueAddy[currentIndex]
-        picture = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference="+mosquePics[currentIndex]+"&key=AIzaSyC8WU0L3VojFPblAeJomlsnuTriple36fI"
+        picture = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference="+mosquePics[currentIndex]+"&key=Get_Your_Own_Key"
         q = false
         // Reset the q state variable after a short delay
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {

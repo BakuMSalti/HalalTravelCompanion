@@ -116,7 +116,7 @@ class jsonWebVM : ObservableObject{
         }
     }
  //=============================================MAPS API========================================================//
-    //https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=33,-112&radius=80000&type=mosque&key=AIzaSyC8WU0L3VojFPblAeJomlsnuTriple36fI
+    //https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=33,-112&radius=80000&type=mosque&key=Get_Your_Own_Key
     
     struct MapsResponse: Decodable {
         let results: [Places]
